@@ -1,0 +1,15 @@
+<header class="clearfix" id="profile">
+    <div id="cashier">
+        <span>Cashier: </span>
+        <a href="#">{{username}}</a>
+    </div>
+    {{#if isAuth}}
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="#/logout">Logout</a>
+                </li>
+            </ul>
+        </nav>
+    {{/if}}
+</header>

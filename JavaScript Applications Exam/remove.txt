@@ -1,0 +1,3 @@
+https://console.kinvey.com/apps
+filip_popov@mail.bg
+npm install
